@@ -1,6 +1,8 @@
 parts procurement
 ----------------
 
+Spreadsheet here: https://docs.google.com/spreadsheet/ccc?key=0AkTsdtdxo56DdFVYWkd4YjhKVmdfSk1WV1ZpZ2F5enc
+
 gantry:
   rail, 1, $99.00 http://www.vxb.com/Merchant2/merchant.mvc?Screen=PROD&Store_Code=bearings&Product_Code=Kit8279&Category_Code=12mmLinearMotionSystems
   trucks, 6, $9.95, http://www.vxb.com/Merchant2/merchant.mvc?Screen=PROD&Store_Code=bearings&Product_Code=Kit8512&Category_Code=12mmLinearMotionSystems
