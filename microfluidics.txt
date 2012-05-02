@@ -12,3 +12,5 @@ probably 2-layer PDMS with pressure valves
 * dust fan for cutting fumes
 * syringe pumps
 * spin coater
+* 34 channel 500 MHz logic analyzer - $389 new, made in USA
+	http://www.pctestinstruments.com/index.htm

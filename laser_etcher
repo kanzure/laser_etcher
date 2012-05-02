@@ -14,6 +14,10 @@ gantry:
   helical coupler, 2, 
   stepper, 2, 
 
+laser:
+  test Blu-Ray 12X BD-R drive, contains at least 700mW 405nm laser $100 newegg
+
+  if that works, try replacing the diode with 1W version from ebay (or 2W 445nm laser), custom beam expander and may be required but should be pretty cheap and easy
 
 
 design
@@ -58,3 +62,15 @@ this works out to give a power density of 60W/(700micron*0.25*254cm/s)
 = 13.5 J/cm^2
 and assuming a full-depth cut, 60W/(381micron*700micron*0.25*254cm/s)
 = 354 J/cm^3
+
+
+optics equations/calculators
+----------------------------
+
+http://buildlog.net/cnc_laser/laser_calcs.htm
+http://www.newport.com/Laser-Damage-Threshold/144932/1033/content.aspx
+
+optics links
+------------
+CO2
+http://www.repairfaq.org/sam/laserco2.htm  
