@@ -9,3 +9,9 @@ optics:
 electronics:
 
 software:
+
+parts:
+  - finalize parts list
+  - prioritize parts for ordering/shipping
+  - begin purchasing parts
+
