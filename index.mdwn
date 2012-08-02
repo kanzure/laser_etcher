@@ -4,7 +4,7 @@
 
 [browse wiki history on cgit](http://diyhpl.us/cgit/laser_etcher)
 
-    git clone git://diyhpl.us/diyhpluswiki.git
+    git clone git://diyhpl.us/laser_etcher.git
 
 All wikis are supposed to have a [[SandBox]], so this one does too.
 
