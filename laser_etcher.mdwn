@@ -1,10 +1,13 @@
-parts procurement
-----------------
+[[!toc levels=2]]
+
+# parts procurement
 
 Spreadsheet here: https://docs.google.com/spreadsheet/ccc?key=0AkTsdtdxo56DdFVYWkd4YjhKVmdfSk1WV1ZpZ2F5enc
 
 gantry:
-  rail, 1, $99.00 http://www.vxb.com/Merchant2/merchant.mvc?Screen=PROD&Store_Code=bearings&Product_Code=Kit8279&Category_Code=12mmLinearMotionSystems
+[[!table data="""
+item, quatity, price, link
+  rail, 1, $99.00, http://www.vxb.com/Merchant2/merchant.mvc?Screen=PROD&Store_Code=bearings&Product_Code=Kit8279&Category_Code=12mmLinearMotionSystems
   trucks, 6, $9.95, http://www.vxb.com/Merchant2/merchant.mvc?Screen=PROD&Store_Code=bearings&Product_Code=Kit8512&Category_Code=12mmLinearMotionSystems
   thrust bearing 8mm ID x2, 2, $14, http://www.vxb.com/page/bearings/PROD/Thrust/Kit7153
   ball bearing 8mm ID 16mm OD, 2, $1, http://www.vxb.com/page/bearings/PROD/8mm/688ZZ-1
@@ -12,18 +15,17 @@ gantry:
   3/8-40 acme wear-compensating nut, 2, $35.03, mcmaster 6350K213
   3/8-40 acme threaded rod, 1, $157.36, mcmaster 6350K137
 
-  spring washer (wave washer, for thrust bearing preload), 2, 
+  spring washer (wave washer for thrust bearing preload), 2, 
   helical coupler, 2, 
   stepper, 2, 
-
+"""]]
 laser:
   test Blu-Ray 12X BD-R drive, contains at least 700mW 405nm laser $100 newegg
 
   if that works, try replacing the diode with 1W version from ebay (or 2W 445nm laser), custom beam expander and may be required but should be pretty cheap and easy
 
 
-design
-------
+# design
 
 bearings are needed to prevent the screw from whipping around, as it will be rotating at about 1000rpm. instead of 
 making bearing blocks we can(?) buy shaft holders from vxb, sized to fit the OD of the bearing. then, two thrust 
@@ -42,8 +44,7 @@ granite or mic-6 plate, as most convenient
 
 
 
-optics calculations
--------------------
+# optics calculations
 
 referencing the paper "Characterization of Program Controlled CO2 Laser-Cut PDMS
 Channels for Lab-on-a-chip Applications", available from the publisher and at
@@ -66,13 +67,11 @@ and assuming a full-depth cut, 60W/(381micron*700micron*0.25*254cm/s)
 = 354 J/cm^3
 
 
-optics equations/calculators
-----------------------------
+# optics equations/calculators
 
 http://buildlog.net/cnc_laser/laser_calcs.htm
 http://www.newport.com/Laser-Damage-Threshold/144932/1033/content.aspx
 
-optics links
-------------
-CO2
+# optics links
+## CO2
 http://www.repairfaq.org/sam/laserco2.htm  
