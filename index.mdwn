@@ -1,0 +1,13 @@
+[[!map pages="* and ! */* and ! ikiwiki and ! favicon.ico and ! *.css and ! shortcuts and ! sandbox and ! templates and ! recentchanges"]]
+
+[register to edit here](http://diyhpl.us/piny-commands/newuser/) and [see other commands](http://diyhpl.us/piny-commands/)
+
+[browse wiki history on cgit](http://diyhpl.us/cgit/laser_etcher)
+
+    git clone git://diyhpl.us/diyhpluswiki.git
+
+All wikis are supposed to have a [[SandBox]], so this one does too.
+
+----
+
+This wiki is powered by [[ikiwiki]].
