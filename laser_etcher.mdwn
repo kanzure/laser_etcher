@@ -2,18 +2,18 @@
 
 # parts procurement
 
-Spreadsheet here: https://docs.google.com/spreadsheet/ccc?key=0AkTsdtdxo56DdFVYWkd4YjhKVmdfSk1WV1ZpZ2F5enc
+Spreadsheet here: <a href="https://docs.google.com/spreadsheet/ccc?key=0AkTsdtdxo56DdFVYWkd4YjhKVmdfSk1WV1ZpZ2F5enc">https://docs.google.com/spreadsheet/ccc?key=0AkTsdtdxo56DdFVYWkd4YjhKVmdfSk1WV1ZpZ2F5enc</a>
 
 <iframe width='100%' height='300' frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0AkTsdtdxo56DdFVYWkd4YjhKVmdfSk1WV1ZpZ2F5enc&output=html&widget=true'></iframe>
 
 gantry:
 [[!table data="""
 item, quatity, price, link
-  rail, 1, $99.00, http://www.vxb.com/Merchant2/merchant.mvc?Screen=PROD&Store_Code=bearings&Product_Code=Kit8279&Category_Code=12mmLinearMotionSystems
-  trucks, 6, $9.95, http://www.vxb.com/Merchant2/merchant.mvc?Screen=PROD&Store_Code=bearings&Product_Code=Kit8512&Category_Code=12mmLinearMotionSystems
-  thrust bearing 8mm ID x2, 2, $14, http://www.vxb.com/page/bearings/PROD/Thrust/Kit7153
-  ball bearing 8mm ID 16mm OD, 2, $1, http://www.vxb.com/page/bearings/PROD/8mm/688ZZ-1
-  bearing block, 2, $10, http://www.vxb.com/page/bearings/PROD/kit7136
+  rail, 1, $99.00, <a href="http://www.vxb.com/Merchant2/merchant.mvc?Screen=PROD&Store_Code=bearings&Product_Code=Kit8279&Category_Code=12mmLinearMotionSystems">http://www.vxb.com/Merchant2/merchant.mvc?Screen=PROD&Store_Code=bearings&Product_Code=Kit8279&Category_Code=12mmLinearMotionSystems</a>
+  trucks, 6, $9.95, <a href="http://www.vxb.com/Merchant2/merchant.mvc?Screen=PROD&Store_Code=bearings&Product_Code=Kit8512&Category_Code=12mmLinearMotionSystems">http://www.vxb.com/Merchant2/merchant.mvc?Screen=PROD&Store_Code=bearings&Product_Code=Kit8512&Category_Code=12mmLinearMotionSystems</a>
+  thrust bearing 8mm ID x2, 2, $14, <a href="http://www.vxb.com/page/bearings/PROD/Thrust/Kit7153">http://www.vxb.com/page/bearings/PROD/Thrust/Kit7153</a>
+  ball bearing 8mm ID 16mm OD, 2, $1, <a href="http://www.vxb.com/page/bearings/PROD/8mm/688ZZ-1">http://www.vxb.com/page/bearings/PROD/8mm/688ZZ-1</a>
+  bearing block, 2, $10, <a href="http://www.vxb.com/page/bearings/PROD/kit7136">http://www.vxb.com/page/bearings/PROD/kit7136</a>
   3/8-40 acme wear-compensating nut, 2, $35.03, mcmaster 6350K213
   3/8-40 acme threaded rod, 1, $157.36, mcmaster 6350K137
 
@@ -26,7 +26,6 @@ laser:
 
   if that works, try replacing the diode with 1W version from ebay (or 2W 445nm laser), custom beam expander and may be required but should be pretty cheap and easy
 
-
 # design
 
 bearings are needed to prevent the screw from whipping around, as it will be rotating at about 1000rpm. instead of 
@@ -35,8 +34,7 @@ bearings go on either side of the shaft block, constraining the leadscrew in the
 are machined to have a shoulder and a capture nut. the stepper motor drives the other end of the screw with a helical 
 coupler or diaphragm joint and prevents it from whipping around. (?)
 
-kinematic design to prevent binding and flexing. each axis has 3 trucks, 2 on one rail, 1 on the other rail. 
-
+kinematic design to prevent binding and flexing. each axis has 3 trucks, 2 on one rail, 1 on the other rail.
 
 grouted construction (moglice epoxy to bed components)
 
@@ -44,13 +42,11 @@ shims to align components vertically
 
 granite or mic-6 plate, as most convenient
 
-
-
 # optics calculations
 
 referencing the paper "Characterization of Program Controlled CO2 Laser-Cut PDMS
 Channels for Lab-on-a-chip Applications", available from the publisher and at
-http://fennetic.net/irc/laser_ablation_profile_power.pdf
+<a href="http://fennetic.net/irc/laser_ablation_profile_power.pdf">http://fennetic.net/irc/laser_ablation_profile_power.pdf</a>
 
 fig.7 in the paper shows a full-depth (trapezoidal) channel, cut at "25% speed"
 
@@ -68,12 +64,12 @@ this works out to give a power density of 60W/(700micron*0.25*254cm/s)
 and assuming a full-depth cut, 60W/(381micron*700micron*0.25*254cm/s)
 = 354 J/cm^3
 
-
 # optics equations/calculators
 
-http://buildlog.net/cnc_laser/laser_calcs.htm
-http://www.newport.com/Laser-Damage-Threshold/144932/1033/content.aspx
+<a href="http://buildlog.net/cnc_laser/laser_calcs.htm">http://buildlog.net/cnc_laser/laser_calcs.htm</a>
+<a href="http://www.newport.com/Laser-Damage-Threshold/144932/1033/content.aspx">http://www.newport.com/Laser-Damage-Threshold/144932/1033/content.aspx</a>
 
 # optics links
 ## CO2
-http://www.repairfaq.org/sam/laserco2.htm  
+<a href="http://www.repairfaq.org/sam/laserco2.htm">http://www.repairfaq.org/sam/laserco2.htm</a>
+
