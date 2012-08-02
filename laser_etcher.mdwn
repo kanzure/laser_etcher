@@ -1,5 +1,9 @@
 [[!toc levels=2]]
 
+# rendering
+
+![a pretty rendering using openscad](http://fennetic.net/irc/xy_table_unfinished.png)
+
 # parts procurement
 
 Spreadsheet here: [https://docs.google.com/spreadsheet/ccc?key=0AkTsdtdxo56DdFVYWkd4YjhKVmdfSk1WV1ZpZ2F5enc](https://docs.google.com/spreadsheet/ccc?key=0AkTsdtdxo56DdFVYWkd4YjhKVmdfSk1WV1ZpZ2F5enc)
