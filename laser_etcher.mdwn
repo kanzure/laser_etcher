@@ -4,6 +4,8 @@
 
 Spreadsheet here: https://docs.google.com/spreadsheet/ccc?key=0AkTsdtdxo56DdFVYWkd4YjhKVmdfSk1WV1ZpZ2F5enc
 
+<iframe width='500' height='300' frameborder='0' src='https://docs.google.com/spreadsheet/pub?key=0AkTsdtdxo56DdFVYWkd4YjhKVmdfSk1WV1ZpZ2F5enc&output=html&widget=true'></iframe>
+
 gantry:
 [[!table data="""
 item, quatity, price, link
