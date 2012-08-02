@@ -11,8 +11,8 @@ gantry:
 item, quatity, price, link
   rail, 1, $99.00, [http://www.vxb.com/Merchant2/merchant.mvc?Screen=PROD&Store_Code=bearings&Product_Code=Kit8279&Category_Code=12mmLinearMotionSystems](http://www.vxb.com/Merchant2/merchant.mvc?Screen=PROD&Store_Code=bearings&Product_Code=Kit8279&Category_Code=12mmLinearMotionSystems)
   trucks, 6, $9.95, [http://www.vxb.com/Merchant2/merchant.mvc?Screen=PROD&Store_Code=bearings&Product_Code=Kit8512&Category_Code=12mmLinearMotionSystems](http://www.vxb.com/Merchant2/merchant.mvc?Screen=PROD&Store_Code=bearings&Product_Code=Kit8512&Category_Code=12mmLinearMotionSystems)
-  thrust bearing 8mm ID x2, 2, $14, ["http://www.vxb.com/page/bearings/PROD/Thrust/Kit7153"](http://www.vxb.com/page/bearings/PROD/Thrust/Kit7153)
-  ball bearing 8mm ID 16mm OD, 2, $1, [http://www.vxb.com/page/bearings/PROD/8mm/688ZZ-1"](http://www.vxb.com/page/bearings/PROD/8mm/688ZZ-1)
+  thrust bearing 8mm ID x2, 2, $14, [http://www.vxb.com/page/bearings/PROD/Thrust/Kit7153](http://www.vxb.com/page/bearings/PROD/Thrust/Kit7153)
+  ball bearing 8mm ID 16mm OD, 2, $1, [http://www.vxb.com/page/bearings/PROD/8mm/688ZZ-1](http://www.vxb.com/page/bearings/PROD/8mm/688ZZ-1)
   bearing block, 2, $10, [http://www.vxb.com/page/bearings/PROD/kit7136](http://www.vxb.com/page/bearings/PROD/kit7136)
   3/8-40 acme wear-compensating nut, 2, $35.03, mcmaster 6350K213
   3/8-40 acme threaded rod, 1, $157.36, mcmaster 6350K137
