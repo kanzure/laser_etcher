@@ -16,4 +16,4 @@ probably 2-layer PDMS with pressure valves
 ## Electronics Development and Diagnostics ##
 
 * 34 channel 500 MHz logic analyzer - $389 new, made in USA
-	http://www.pctestinstruments.com/index.htm
+    http://www.pctestinstruments.com/index.htm
