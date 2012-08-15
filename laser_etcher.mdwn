@@ -68,6 +68,21 @@ this works out to give a power density of 60W/(700micron*0.25*254cm/s)
 and assuming a full-depth cut, 60W/(381micron*700micron*0.25*254cm/s)
 = 354 J/cm^3
 
+# cut speed calculations
+We'd like machining time for large single-layer designs to take 15 minutes to fully finish, to allow for rapid revision of digital to physical design. That math is:
+1,000,000 droplets 25 microns in diameter next to each other single-file * 1.25 for overheard and reaction centers that use the droplets. That's 31,250,000 microns for a single layer (the other layer or two would be much much less).  
+31,250,000 microns == 31,250 mm
+31250 mm / 15 minutes = 2083mm/min
+
+2083 mm/min == 33966.66 microns/second
+
+with a 40 tpi screw and 400 step/revolution stepper motor:
+25400 microns (1 inch) / 40 / 400 steps = 1.5875 microns per step
+
+1.5875 microns/pulse -- full-step that speed requires 21396.32 hz pulses
+0.1984375 microns/pulse -- 1/8th microstepping requires 171khz
+0.09921875 microns/pulse -- 1/16th microstepping requires 342khz
+
 # optics equations/calculators
 
 [http://buildlog.net/cnc\_laser/laser\_calcs.htm](http://buildlog.net/cnc_laser/laser_calcs.htm)
@@ -76,4 +91,3 @@ and assuming a full-depth cut, 60W/(381micron*700micron*0.25*254cm/s)
 # optics links
 ## CO2
 [http://www.repairfaq.org/sam/laserco2.htm](http://www.repairfaq.org/sam/laserco2.htm)
-
