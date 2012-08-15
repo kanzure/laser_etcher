@@ -80,7 +80,9 @@ with a 40 tpi screw and 400 step/revolution stepper motor:
 25400 microns (1 inch) / 40 / 400 steps = 1.5875 microns per step
 
 1.5875 microns/pulse -- full-step that speed requires 21396.32 hz pulses
+
 0.1984375 microns/pulse -- 1/8th microstepping requires 171khz
+
 0.09921875 microns/pulse -- 1/16th microstepping requires 342khz
 
 # optics equations/calculators
