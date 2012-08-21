@@ -1,6 +1,8 @@
 //vxb rail support block
 //http://www.vxb.com/page/bearings/PROD/kit7136
 
+include <MCAD/materials.scad>
+
 module support_block(){
     D=16;
     h=27;
@@ -15,7 +17,7 @@ module support_block(){
     locking_bolt=4; //M4
     clamping_bolt=5; //M5
 
-    linear_extrude(height=L){
+    color(Aluminum) linear_extrude(height=L){
         difference(){
             union(){
                 translate([-W/2,0]) square([W,G]);
