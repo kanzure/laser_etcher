@@ -7,6 +7,16 @@ The goal is to make a small laser CNC machine that has a cutting spot of <10 mic
 
 ![a pretty rendering using openscad](http://fennetic.net/irc/xy_table_unfinished.png)
 
+## unfinished CAD items
+it's missing the top and bottom plates, the bolt hole locations, the leadscrews and leadnuts and bearing mounts and stepper motor mounts, and it needs some kind of right angle bracket to hold the laser optics (i was thinking some kind of optical breadboard at 90 degrees to the motion stage... )
+
+## assembly notes
+fenn: I'm not sure the dimensions work the way i had imagined, but it should be close enough to take out any vertical slop with shims
+
+# items with source needed
+## This is to prevent an eccentric leadscrew from causing uneven friction with the nut, and to prevent side loading of the axis
+http://www.thingiverse.com/image:11683
+
 # parts procurement
 
 Spreadsheet here: [https://docs.google.com/spreadsheet/ccc?key=0AkTsdtdxo56DdFVYWkd4YjhKVmdfSk1WV1ZpZ2F5enc](https://docs.google.com/spreadsheet/ccc?key=0AkTsdtdxo56DdFVYWkd4YjhKVmdfSk1WV1ZpZ2F5enc)
