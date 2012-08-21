@@ -14,7 +14,7 @@ rail_center_height=20.46; //this too
 truck_length=36;  //sigh. is introspection too much to ask?
 block_thickness=16; //got this value from support_block.scad
 bearing_thickness=10; //made up
-
+nut_thickness=5; //made up
 
 //trucks can overlap with small inter-rail distance; 
 //truck minimum spacing should allow third truck between 
@@ -31,8 +31,8 @@ module slide(length, carriage_length, trucks=2){union(){
 }
 
 module leadscrew_assembly(){
-    color(Aluminum) support_block();
-    x=50; //cube size, not accurate
+    %color(Aluminum) support_block();
+    x=56.4; //cube size, not accurate
     shaft_length=25;
     coupler_length=15;
     threaded_length = plate_width - shaft_length - x - block_thickness - bearing_thickness - 10;
@@ -44,7 +44,9 @@ module leadscrew_assembly(){
             translate([0,0,shaft_length]) union(){//leadscrew
                 translate([0,0,10]) color(Stainless) cylinder(r=(3/8)*inch/2, h=threaded_length);//threaded portion
                 color(Steel) cylinder(r=5/2, h=10); //machined leadscrew end (stepper end)
-                translate([0,0,threaded_length+10]) color(Steel) cylinder(r=5/2, h=2*bearing_thickness+block_thickness); //machined leadscrew end (bearing end)
+                translate([0,0,threaded_length+10]) color(Steel) cylinder(r=5/2, h=2*bearing_thickness+block_thickness+nut_thickness); //machined leadscrew end (bearing end)
+                translate([0,0,threaded_length+10]) cylinder(r=10,h=bearing_thickness);//thrust bearing
+                %translate([0,0,threaded_length+10+block_thickness+bearing_thickness]) cylinder(r=10,h=bearing_thickness);//thrust bearing
 
             }
 
