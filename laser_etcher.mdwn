@@ -1,5 +1,8 @@
 [[!toc levels=2]]
 
+#Introduction
+The goal is to make a small laser CNC machine that has a cutting spot of <10 microns.
+
 # rendering
 
 ![a pretty rendering using openscad](http://fennetic.net/irc/xy_table_unfinished.png)
