@@ -14,7 +14,8 @@ it's missing the top and bottom plates, the bolt hole locations, the leadscrews 
 fenn: I'm not sure the dimensions work the way i had imagined, but it should be close enough to take out any vertical slop with shims
 
 # items with source needed
-## This is to prevent an eccentric leadscrew from causing uneven friction with the nut, and to prevent side loading of the axis
+## 
+This is to prevent an eccentric leadscrew from causing uneven friction with the nut, and to prevent side loading of the axis
 http://www.thingiverse.com/image:11683
 
 # parts procurement
