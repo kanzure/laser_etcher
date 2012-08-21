@@ -30,20 +30,27 @@ module slide(length, carriage_length, trucks=2){union(){
 module leadscrew_assembly(){
     color(Aluminum) support_block();
     x=50; //cube size, not accurate
-    translate([x/2,0,plate_width]) rotate([0,180,0]) color(Steel) union(){
-        cube(x,x,x);//stepper motor
+    shaft_length=25;
+    coupler_length=15;
+    translate([x/2,0,plate_width]) rotate([0,180,0]) union(){
+        color(Stainless) cube(x,x,x);//stepper motor
         translate([x/2, x/2, x]) union(){
-            cylinder(r=2.5, h=25); //stepper shaft
-            translate([0,0,20]) color(Aluminum) cylinder(r=12/2, h=15); //helical coupler, fake numbers
+            cylinder(r=2.5, h=shaft_length); //stepper shaft
+            translate([0,0,shaft_length-coupler_length/2]) color(Aluminum) cylinder(r=12/2, h=coupler_length); //helical coupler, fake numbers
+
         }
-        
+
+    
     }
-    translate([-x/2,0,plate_width-x]) rotate(a=[0,90,0]) color(Aluminum) linear_extrude(height=x){
-        union(){
-            square([10,x]);
-            square([x,10]);
-            
-        }
+    translate([-x/2,0,plate_width-x]) rotate(a=[0,90,0]) 
+        color(Aluminum) render() difference(){
+            linear_extrude(height=x){ //motor bracket
+                union(){
+                    square([10,x]);
+                    square([x,10]);    
+                }
+            }
+            rotate(a=[0,90,0]) translate([-x/2, x/2, -5]) cylinder(r=10, h=20); //hole in bracket for motor shaft
     }
 
 }
