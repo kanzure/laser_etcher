@@ -8,15 +8,14 @@ The goal is to make a small laser CNC machine that has a cutting spot of <10 mic
 ![a pretty rendering using openscad](http://fennetic.net/irc/xy_table_unfinished.png)
 
 ## unfinished CAD items
-it's missing the top and bottom plates, the bolt hole locations, the leadscrews and leadnuts and bearing mounts and stepper motor mounts, and it needs some kind of right angle bracket to hold the laser optics (i was thinking some kind of optical breadboard at 90 degrees to the motion stage... )
+* it's missing the top and bottom plates, the bolt hole locations, the leadscrews and leadnuts and bearing mounts and stepper motor mounts, and it needs some kind of right angle bracket to hold the laser optics (i was thinking some kind of optical breadboard at 90 degrees to the motion stage... )
 
 ## assembly notes
 fenn: I'm not sure the dimensions work the way i had imagined, but it should be close enough to take out any vertical slop with shims
 
 # items with source needed
-## 
-This is to prevent an eccentric leadscrew from causing uneven friction with the nut, and to prevent side loading of the axis
-http://www.thingiverse.com/image:11683
+* This is to prevent an eccentric leadscrew from causing uneven friction with the nut, and to prevent side loading of the axis
+ * http://www.thingiverse.com/image:11683
 
 # parts procurement
 
@@ -105,5 +104,12 @@ with a 40 tpi screw and 400 step/revolution stepper motor:
 [http://www.newport.com/Laser-Damage-Threshold/144932/1033/content.aspx](http://www.newport.com/Laser-Damage-Threshold/144932/1033/content.aspx)
 
 # optics links
+* Sam's Laser FAQ -- Laser Instruments and Applications
+ * http://an.hitchcock.org/repairfaq/sam/laserlia.htm#liaint3
 ## CO2
 [http://www.repairfaq.org/sam/laserco2.htm](http://www.repairfaq.org/sam/laserco2.htm)
+
+# stepper links
+* PDFs
+ * http://users.ece.utexas.edu/~valvano/Datasheets/StepperSelection.pdf
+ * http://users.ece.utexas.edu/~valvano/Datasheets/StepperMicrostep.pdf
