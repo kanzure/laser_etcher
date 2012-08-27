@@ -1,0 +1,141 @@
+Thank you for your patience. An Edmund Optic's representative will be with you shortly.
+Credit Card information can not be accepted over Chat.
+Pau Loong: Thank you for contacting Edmund Optics Technical Support, my name is Pau Loong; how can I help you today?
+Nathan McCorkle: Hi, I need help finding the right optics for focusing a laser
+Pau Loong: wavelength, divergence, raw beam diameter?
+Nathan McCorkle: i desire a small spot size, but a close working distance (7-18 mm) is fine
+Nathan McCorkle: one moment
+Nathan McCorkle: its 405nm
+Pau Loong: raw beam diameter?
+Nathan McCorkle: i am not sure
+Nathan McCorkle: i think about 2mm
+Nathan McCorkle: but maybe 9mm
+Nathan McCorkle: it is from a bluray 12X writer drive
+Pau Loong: so you are looking for a single piece of focusing lens?
+Nathan McCorkle: i saw these http://www.edmundoptics.com/optics/optical-lenses/aspheric-lenses/blue-laser-collimating-aspheric-lenses/3362#products
+Nathan McCorkle: what is the difference between the two?
+Pau Loong: ok, for focusing a laser to a small spot size, we have to follow a equation
+Pau Loong: spot size = wavelength * focal length / diameter * 4/pi
+Nathan McCorkle: right
+Nathan McCorkle: which is why I said a close focal length
+Pau Loong: yes, you need to collimate the laser first, to make the beam parallel
+Nathan McCorkle: the link i provided earlier, for the blue lenses?
+Nathan McCorkle: said it was collimating
+Nathan McCorkle: the assymetric one
+Nathan McCorkle: (well there were multiple with different NAs)
+Nathan McCorkle: coated/uncoated
+Pau Loong: yes, you need to know the divergence of your laser
+Pau Loong: then estimate the NA = 1 / 2 / f-number
+Pau Loong: f-number = focal length / diameter
+Nathan McCorkle: so if i setup my laser, what procedure could I perform to arrive with sufficient data?
+Nathan McCorkle: i am assuming the raw diode will not have a focus
+Pau Loong: wavelength, f-number
+Pau Loong: that determine your final laser spot size
+Nathan McCorkle: but if it doesn't have a focus, how can it have an f-number?
+Nathan McCorkle: if its divergent out of the can
+Pau Loong: your laser is diverging, so it has a f-number
+Pau Loong: or NA
+Pau Loong: NA = sin (half angle in degree)
+Pau Loong: let me show you an illustration
+Nathan McCorkle: so i would have to measure the spot size at multiple locations away from the exit hole in the diode can
+Pau Loong: http://www.edmundoptics.com/optics/optical-lenses/aspheric-lenses/precision-molded-aspheric-lenses/2123
+Pau Loong: refer the Technical Images
+Nathan McCorkle: to determine the angle
+Pau Loong: right
+Nathan McCorkle: does edmunds sell micrometers and mounts to help me with that?
+Pau Loong: measure the angle found here: http://www.edmundoptics.com/learning-and-support/technical/learning-center/application-notes/lasers/beam-expanders/?&viewall
+Pau Loong: please have a sketch/drawing of your intended setup
+Pau Loong: we can recommend from your sketch
+Nathan McCorkle: hmm, ok
+Nathan McCorkle: so once i determine the NA of the laser, and measure the width at the base... what can you recommend?
+Pau Loong: yes
+Nathan McCorkle: do I use the NA I determine and match a collimating lens of the same value?
+Nathan McCorkle: the flat side up against the laser diode?
+Pau Loong: the flat surface facing the laser
+Nathan McCorkle: so that would produce a collimated beam, correct?
+Pau Loong: right
+Nathan McCorkle: and then I would need another lens to focus it?
+Nathan McCorkle: what type of lens would that be?
+Nathan McCorkle: i.e. the first type is an assymetric collimating lens
+Pau Loong: depending on your Spot Size requirement, you might need to further expand your beam before focusing
+Nathan McCorkle: i do not believe i need to expand the beam
+Nathan McCorkle: when i calculated the spot size with the range of possible beam diameters
+Nathan McCorkle: (I was assuming the beam was collimated)
+Pau Loong: yes, but pay attention that f-number = focal length / diameter
+Pau Loong: you can choose a lens with a fixed FL
+Pau Loong: but how about the diameter?
+Nathan McCorkle: is the diameter of the second lens based on the diameter of the beam out of the diode can?
+Pau Loong: it is the Input to the focusing lens
+Pau Loong: larger diameter gives you smaller spot size for a fixed FL
+Nathan McCorkle: right, but if i get a 10mm diameter lens with 10mm focal length... will it perform the same as a 20mm diameter len, with a 10mm focal lenght
+Nathan McCorkle: when i put the same 10mm collimated beam into them?
+Pau Loong: certainly not
+Pau Loong: pay attention to the formula of the spot size again
+Pau Loong: you will have a spot size smaller by double if you double the diameter
+Nathan McCorkle: i am talking about the diameter of the focusing len
+Nathan McCorkle: s
+Nathan McCorkle: not the collimated beam
+Pau Loong: yes, i am assuming the diameter of the laser input same as diameter of the lens
+Pau Loong: it is the laser diameter that concern
+Nathan McCorkle: but if my laser diameter is 1.9mm and you only sell a 2mm diameter lens
+Nathan McCorkle: then what is the effect?
+Nathan McCorkle: does the spot size calculation use the lens diameter, or the beam diameter going into the lens (like i say the beam could be 1.9mm into a 2mm lens)
+Pau Loong: the formula is for the laser diameter
+Nathan McCorkle: ok so I just need to choose a lens larger than the beam, with the desired focal length?
+Pau Loong: right
+Nathan McCorkle: ahh, ok
+Nathan McCorkle: so i need to match the NA of the laser to equal one of the asymmetric collimating lenses?
+Pau Loong: it is Aspheric lens, not asymetric lens
+Nathan McCorkle: i believe this may be correct
+Nathan McCorkle: the beam divergence angles, of 8.5 degrees on horizontal direction and 19 degrees on vertical direction
+Nathan McCorkle: ahh right, aspheric
+Pau Loong: then you need to make your beam circular first
+Pau Loong: http://www.edmundoptics.com/optics/prisms/specialty-prisms/anamorphic-prism-pairs/2429
+Nathan McCorkle: is it a problem to choose the larger divergence angle and use that for the NA calculation?
+Pau Loong: yes, use the largest one if you plan to use an elliptical beam
+Nathan McCorkle: hmm
+Nathan McCorkle: how do i determine when the beam is mostly circular if I use the Anamorphic Prism Pairs
+Pau Loong: check under the "Specifications" tab
+Pau Loong: there is different magnifiation for different angle of adjustment
+Nathan McCorkle: how would I mount the unmounted 405nm version
+Nathan McCorkle: ?
+Pau Loong: we don't have an empty mount to offer
+Nathan McCorkle: !
+Nathan McCorkle: so i have to machine something myself?
+Pau Loong: it depends how you with to hold it
+Pau Loong: wish
+Nathan McCorkle: can you give me a link to the focusing lenses you think would be best?
+Pau Loong: you must first determine the spot size you need
+Nathan McCorkle: would it be plano convex?
+Pau Loong: then we can determine the input diameter you need
+Nathan McCorkle: or again an aspheric?
+Nathan McCorkle: i need <= 5microns
+Pau Loong: aspheric gives smaller spot size than PCX
+Pau Loong: you can calculate the f-number based on the spot size equation
+Nathan McCorkle: and i buy a lens by the F-number?
+Pau Loong: f-number or NA, they are the same thing
+Pau Loong: NA = 1/2/f-number
+Nathan McCorkle: but for the spot size equation, I thought I just need to buy a lens based on the focal length
+Pau Loong: spot size = 4/pi * f-number *wavelength
+Nathan McCorkle: earlier you said "spot size = wavelength * focal length / diameter * 4/pi"
+Pau Loong: yes, f-number = focal length / diameter
+Nathan McCorkle: so i know its 405nm, its 2-3mm beam diameter, and I want something 7-17mm focal length to produce <= 5 micron spot size
+Nathan McCorkle: so can i just choose a lens based on focal length?
+Pau Loong: you cannot choose diameter and focal length by yourself
+Pau Loong: it is determine by the formula
+Nathan McCorkle: earlier you said "Pau Loong: the formula is for the laser diameter"
+Pau Loong: you need to calculate the focal length you need
+Nathan McCorkle: why, I have calculated that a range from 7-17mm will produce a spot sufficient for my purposes
+Pau Loong: ok, if you have calculated, then you can choose the Aspheric lens
+Nathan McCorkle: link please?
+Pau Loong: http://www.edmundoptics.com/optics/optical-lenses/aspheric-lenses/precision-molded-aspheric-lenses/2123
+Pau Loong: and
+Pau Loong: http://www.edmundoptics.com/optics/optical-lenses/aspheric-lenses/blue-laser-collimating-aspheric-lenses/3362#products
+Nathan McCorkle: and do you sell the mounting track, to place items next to each other?
+Nathan McCorkle: are those "Precision Molded Aspheric Lenses" glass or plastic?
+Pau Loong: http://www.edmundoptics.com/mechanics/optical-mounts-plates/lens-mounts/
+Pau Loong: glass
+Nathan McCorkle: ok, well I think that's enough info for tonight, I will try to find the information on the laser, and if I can't, I will have to measure it
+Nathan McCorkle: thanks a lot
+Pau Loong: If you have any further questions our Technical Support Department is here Sunday 8:00 pm through Friday 6:00 pm EST.
+Pau Loong: Thank you for contacting Edmund Optics!
