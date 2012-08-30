@@ -106,6 +106,56 @@ with a 40 tpi screw and 400 step/revolution stepper motor:
 # optics links
 * Sam's Laser FAQ -- Laser Instruments and Applications
  * http://an.hitchcock.org/repairfaq/sam/laserlia.htm#liaint3
+ 
+ Differences Between LEDs and Laser Diodes
+ * http://donklipstein.com/laserdio.htm#diocss2
+ 
+ Can I Use the Optical Pickup from a CD/DVD Player or CD/DVDROM for Interferometry?
+ * http://donklipstein.com/laserlia.htm#liaint5
+ 
+ Interferometers Using Inexpensive Laser Diodes
+ * http://donklipstein.com/laserlia.htm#liaint4
+
+ Laser Diodes with Built-In Beam Correction
+ * http://donklipstein.com/laserdio.htm#dioldbb
+ 
+ Beam Characteristics, Correction, Comparison with Other Lasers, Noise
+ * http://donklipstein.com/laserdio.htm#diobcc
+ 
+ Determining Characteristics and Testing of Laser Diodes
+ * http://donklipstein.com/laserdio.htm#diodct
+ 
+ Anatomy of Fiber-Coupled Laser Diodes
+ * http://donklipstein.com/laserdio.htm#diofcld
+ 
+ Laser and Parts Sources
+ * http://donklipstein.com/laserlps.htm#lpstoc
+ 
+ Dissection of a Blu-ray Reader Assembly
+ * http://www.repairfaq.org/sam/Blu-ray/site1/index.html
+ 
+ Laser beam divergence and spot size (Theory): Optics Virtual Lab: Physical Sciences: Amrita
+ * http://amrita.vlab.co.in/?sub=1&brch=189&sim=342&cnt=1
+ 
+ 
+ 
+## 405nm
+This seems like the best way to go, the 12X blu-ray writers have a diode that can be driven to 700 (mA or mW). 
+
+hmm 500mW with a real data sheet... divergence says it is a bar of diodes next to each other... not ideal
+http://www.prophotonix.com/uploads/pdfs/HL40023MG_Rev2.PDF
+
+### possible lenses
+
+if the laser is elliptical, these may help to correct it to a more spherical shape (they don't sell a mounting package for the 2 prisms though)
+http://www.edmundoptics.com/optics/prisms/specialty-prisms/anamorphic-prism-pairs/2429
+
+collimating lens
+http://www.edmundoptics.com/optics/optical-lenses/aspheric-lenses/blue-laser-collimating-aspheric-lenses/3362#products
+
+focusing lens
+http://www.edmundoptics.com/optics/optical-lenses/aspheric-lenses/precision-molded-aspheric-lenses/2123
+ 
 ## CO2
 [http://www.repairfaq.org/sam/laserco2.htm](http://www.repairfaq.org/sam/laserco2.htm)
 
