@@ -1,3 +1,4 @@
+<pre>
 Thank you for your patience. An Edmund Optic's representative will be with you shortly.
 Credit Card information can not be accepted over Chat.
 Pau Loong: Thank you for contacting Edmund Optics Technical Support, my name is Pau Loong; how can I help you today?
@@ -139,3 +140,4 @@ Nathan McCorkle: ok, well I think that's enough info for tonight, I will try to 
 Nathan McCorkle: thanks a lot
 Pau Loong: If you have any further questions our Technical Support Department is here Sunday 8:00 pm through Friday 6:00 pm EST.
 Pau Loong: Thank you for contacting Edmund Optics!
+</pre>
