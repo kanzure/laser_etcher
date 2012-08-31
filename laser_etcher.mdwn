@@ -15,7 +15,7 @@ fenn: I'm not sure the dimensions work the way i had imagined, but it should be 
 
 # items with source needed
 * This is to prevent an eccentric leadscrew from causing uneven friction with the nut, and to prevent side loading of the axis
- * http://www.thingiverse.com/image:11683
+ * [http://www.thingiverse.com/image:11683]
 
 # parts procurement
 
@@ -98,68 +98,135 @@ with a 40 tpi screw and 400 step/revolution stepper motor:
 
 0.09921875 microns/pulse -- 1/16th microstepping requires 342khz
 
-# optics equations/calculators
+# optics equations/calculators/software
 
 [http://buildlog.net/cnc\_laser/laser\_calcs.htm](http://buildlog.net/cnc_laser/laser_calcs.htm)
+
 [http://www.newport.com/Laser-Damage-Threshold/144932/1033/content.aspx](http://www.newport.com/Laser-Damage-Threshold/144932/1033/content.aspx)
 
+Laser Parameter Calculator
+[http://laserpointerforums.com/f51/lpc-laser-parameter-calculator-check-out-your-mrad-56454.html#post797367]
+
+DrGeoffA @LensDesignApps News on lens design apps - optical design software - PreDesigner, WinLens3D & MachVis
+[http://twitter.com/lensdesignapps]
+
+* gOptical - class for aspheric (curved polynomial) lenses; gOptical tutorial
+ * [http://www.gnu.org/software/goptical/manual/Curve_Polynomial_class_reference.html]
+ * [http://www.gnu.org/software/goptical/manual/Tutorial.html]
+ 
 # optics links
 * Sam's Laser FAQ -- Laser Instruments and Applications
- * http://an.hitchcock.org/repairfaq/sam/laserlia.htm#liaint3
+ * [http://an.hitchcock.org/repairfaq/sam/laserlia.htm#liaint3]
  
  Differences Between LEDs and Laser Diodes
- * http://donklipstein.com/laserdio.htm#diocss2
+ * [http://donklipstein.com/laserdio.htm#diocss2]
  
  Can I Use the Optical Pickup from a CD/DVD Player or CD/DVDROM for Interferometry?
- * http://donklipstein.com/laserlia.htm#liaint5
+ * [http://donklipstein.com/laserlia.htm#liaint5]
  
  Interferometers Using Inexpensive Laser Diodes
- * http://donklipstein.com/laserlia.htm#liaint4
+ * [http://donklipstein.com/laserlia.htm#liaint4]
 
  Laser Diodes with Built-In Beam Correction
- * http://donklipstein.com/laserdio.htm#dioldbb
+ * [http://donklipstein.com/laserdio.htm#dioldbb]
  
  Beam Characteristics, Correction, Comparison with Other Lasers, Noise
- * http://donklipstein.com/laserdio.htm#diobcc
+ * [http://donklipstein.com/laserdio.htm#diobcc]
  
  Determining Characteristics and Testing of Laser Diodes
- * http://donklipstein.com/laserdio.htm#diodct
+ * [http://donklipstein.com/laserdio.htm#diodct]
  
  Anatomy of Fiber-Coupled Laser Diodes
- * http://donklipstein.com/laserdio.htm#diofcld
+ * [http://donklipstein.com/laserdio.htm#diofcld]
  
  Laser and Parts Sources
- * http://donklipstein.com/laserlps.htm#lpstoc
+ * [http://donklipstein.com/laserlps.htm#lpstoc]
  
  Dissection of a Blu-ray Reader Assembly
- * http://www.repairfaq.org/sam/Blu-ray/site1/index.html
+ * [http://www.repairfaq.org/sam/Blu-ray/site1/index.html]
  
  Laser beam divergence and spot size (Theory): Optics Virtual Lab: Physical Sciences: Amrita
- * http://amrita.vlab.co.in/?sub=1&brch=189&sim=342&cnt=1
+ * [http://amrita.vlab.co.in/?sub=1&brch=189&sim=342&cnt=1]
+ 
+ Laser Beam Profiler
+ * [http://en.wikipedia.org/wiki/Laser_beam_profiler]
+ 
+ Silicon Light Machines, Grating Light Valve(GLV)
+ * [http://www.siliconlight.com/en/technology/overview.html]
+ 
+* drive sleds
+ PHR-803 sled optic questions
+ * [http://laserpointerforums.com/f49/phr-803-sled-optic-questions-42787.html]
+ 
+ Optics from a LPC-815 sled
+ * [http://laserpointerforums.com/f49/optics-lpc-815-sled-56026.html]
+ 
+* power supply stuff
+ Problem with my LM317 driver
+ * [http://laserpointerforums.com/f38/problem-my-lm317-driver-74104.html]
+ 
+ Load monitoring
+ * [http://www.linear.com/product/LTC6101]
+ 
+ LDO regulator
+ * [http://www.micrel.com/_PDF/other/LDOBk.pdf]
+
+* surplus parts
+ * [http://www.mi-lasers.com/]
+
+* mounting parts
+
+ Diode mount (brass)
+ * [http://www.lillyelectronics.com/2x-brass-mount-holder-frame-m11x0-5-for-laser-diode-3-8mm.htm]
+ 
+ * [http://www.newport.com/Introduction-to-Positioning-Equipment/144535/1033/content.aspx]
+
+* random parts
+
+ I wonder how you make a perfect cross-hair, maybe useful for assuring the gantry is square?
+ * [http://www.coherent.com/Products/?988/Cross-Hair-Line-Generators]
+ 
+ Or maybe you project this above the gantry, and make sure it's parallel that way
+ * [http://www.coherent.com/Products/?2023/StingRay-Structured-Light-Laser]
+ 
+ Diode Can Opener
+ * [http://www.thorlabs.com/thorProduct.cfm?partNumber=WR1 ]
+
+## books
+Optics by Hecht 
+[http://www.amazon.com/Optics-4th-Edition-Eugene-Hecht/dp/0805385665]
  
  
- 
-## 405nm
+# 405nm
 This seems like the best way to go, the 12X blu-ray writers have a diode that can be driven to 700 (mA or mW). 
 
 hmm 500mW with a real data sheet... divergence says it is a bar of diodes next to each other... not ideal
-http://www.prophotonix.com/uploads/pdfs/HL40023MG_Rev2.PDF
+[http://www.prophotonix.com/uploads/pdfs/HL40023MG_Rev2.PDF]
 
+### possible electronics
+Ideally the system would use feedback from the laser diode can's photodiode... because after heat, brightness is the main killer of the laser... and brightness varies with temperature at a constant current... so when the laser is cool, the brightness will be different than when it's warm 
+
+* Constant current drivers
+ * [http://www.analog.com/static/imported-files/data_sheets/ADN8810.pdf]
+
+* APC (automatic power control), apc laser driver
+ * find something to put here!
+ 
 ### possible lenses
 
 if the laser is elliptical, these may help to correct it to a more spherical shape (they don't sell a mounting package for the 2 prisms though)
-http://www.edmundoptics.com/optics/prisms/specialty-prisms/anamorphic-prism-pairs/2429
+[http://www.edmundoptics.com/optics/prisms/specialty-prisms/anamorphic-prism-pairs/2429]
 
 collimating lens
-http://www.edmundoptics.com/optics/optical-lenses/aspheric-lenses/blue-laser-collimating-aspheric-lenses/3362#products
+[http://www.edmundoptics.com/optics/optical-lenses/aspheric-lenses/blue-laser-collimating-aspheric-lenses/3362#products]
 
 focusing lens
-http://www.edmundoptics.com/optics/optical-lenses/aspheric-lenses/precision-molded-aspheric-lenses/2123
+[http://www.edmundoptics.com/optics/optical-lenses/aspheric-lenses/precision-molded-aspheric-lenses/2123]
  
 ## CO2
 [http://www.repairfaq.org/sam/laserco2.htm](http://www.repairfaq.org/sam/laserco2.htm)
 
 # stepper links
 * PDFs
- * http://users.ece.utexas.edu/~valvano/Datasheets/StepperSelection.pdf
- * http://users.ece.utexas.edu/~valvano/Datasheets/StepperMicrostep.pdf
+ * [http://users.ece.utexas.edu/~valvano/Datasheets/StepperSelection.pdf]
+ * [http://users.ece.utexas.edu/~valvano/Datasheets/StepperMicrostep.pdf]
